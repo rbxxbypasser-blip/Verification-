@@ -1,4 +1,3 @@
-
 const crypto = require("crypto");
 
 module.exports = async function handler(req, res) {
@@ -43,7 +42,7 @@ module.exports = async function handler(req, res) {
       grant_type: "authorization_code",
       code,
       redirect_uri:
-        "https://verification-pets.vercel.app/auth/discord/callback"
+        "https://verification-pets-rho.vercel.app/auth/discord/callback"
     });
 
     const tokenResponse = await fetch(
