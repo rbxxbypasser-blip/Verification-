@@ -22,7 +22,7 @@ module.exports = async function handler(req, res) {
     client_id: clientId,
     response_type: "code",
     redirect_uri:
-      "https://verification-pets.vercel.app/auth/discord/callback",
+      "https://verification-pets-rho.vercel.app/api/auth/discord/callback",
     scope: "identify guilds.join",
     state: state
   });
